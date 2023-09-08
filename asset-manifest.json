@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/hemanth/static/css/main.78b08413.css",
+    "main.js": "/hemanth/static/js/main.a85cc0bc.js",
+    "static/css/64.bba8fa55.chunk.css": "/hemanth/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.eb9794fb.chunk.js": "/hemanth/static/js/64.eb9794fb.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/hemanth/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.6076f8f8.chunk.js": "/hemanth/static/js/769.6076f8f8.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/hemanth/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/hemanth/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Shanmugha_Arts,_Science,_Technology_&_Research_Academy_logo.png": "/hemanth/static/media/Shanmugha_Arts,_Science,_Technology_&_Research_Academy_logo.bff97ed6fef79b9f23eb.png",
+    "static/media/manOnTable.svg": "/hemanth/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/aws l.jpeg": "/hemanth/static/media/aws l.c4fa650983ce8a4d07a4.jpeg",
+    "static/media/contactMailDark.svg": "/hemanth/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/hemanth/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/png": "/hemanth/static/media/62965ad62be59dc55430cac4.804d31b49d091877171d.png",
+    "static/media/20_0925_seal-cisa-500.jpg": "/hemanth/static/media/20_0925_seal-cisa-500.ebf400c0333a8777d667.jpg",
+    "static/media/logo-circle-deloitte.png": "/hemanth/static/media/logo-circle-deloitte.e34b43def9642e5a2ae9.png",
+    "static/media/Daco_5186041.png": "/hemanth/static/media/Daco_5186041.3f47314c4607eb04c3ab.png",
+    "static/media/skill.svg": "/hemanth/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/saayaHealthLogo.webp": "/hemanth/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/hemanth/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/hemanth/index.html",
+    "static/media/talksCardBack.svg": "/hemanth/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.78b08413.css.map": "/hemanth/static/css/main.78b08413.css.map",
+    "main.a85cc0bc.js.map": "/hemanth/static/js/main.a85cc0bc.js.map",
+    "64.bba8fa55.chunk.css.map": "/hemanth/static/css/64.bba8fa55.chunk.css.map",
+    "64.eb9794fb.chunk.js.map": "/hemanth/static/js/64.eb9794fb.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/hemanth/static/css/769.b3cbb36b.chunk.css.map",
+    "769.6076f8f8.chunk.js.map": "/hemanth/static/js/769.6076f8f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b08413.css",
+    "static/js/main.a85cc0bc.js"
+  ]
+}
