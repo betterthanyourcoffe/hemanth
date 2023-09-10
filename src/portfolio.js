@@ -26,7 +26,7 @@ const greeting = {
     "I'm a skilled and passionate software engineer with a track record of delivering cutting-edge solutions. I excel at mentoring and helping others grow. I am also an aspiring Internal Auditor"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hX_IoN5HOF_lDGVTPWfR_ievHrfXDIvk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hX_IoN5HOF_lDGVTPWfR_ievHrfXDIvk/view?usp=sharing",  // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
