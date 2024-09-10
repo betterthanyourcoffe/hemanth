@@ -23,10 +23,10 @@ const greeting = {
   username: "Hemanth",
   title: "Hi, I'm Hemanth",
   subTitle: emoji(
-    "I'm a skilled and passionate software engineer with a track record of delivering cutting-edge solutions. I excel at mentoring and helping others grow. I am also an aspiring Internal Auditor"
+    "I'm a skilled and passionate software engineer with a track record of delivering cutting-edge solutions. I thrive on problem-solving and writing efficient algorithms. Outside of coding, I enjoy playing badminton."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hX_IoN5HOF_lDGVTPWfR_ievHrfXDIvk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mOtS6o57Rhj4BtDBS85H7j8m6kwSnSpB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,12 +44,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Aspiring Analyst / Product Manager with more than 2 years of work experience in IT industry working with Deloitte",
+  subTitle:
+    "Software Developer / Product Developer with more than 3 years of work experience in IT industry working with Deloitte",
   skills: [
     emoji(
       "⚡  Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Manage different products ownerships and development life cycles"),
+    emoji(
+      "⚡ Manage different products ownerships and development life cycles"
+    ),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
@@ -122,15 +125,18 @@ const educationInfo = {
       subHeader: "Master of Science in Information Technology and Management",
       duration: "January 2023 - August 2024",
       desc: "Dedicated and high-achieving student boasting a stellar 4.0 GPA while concurrently excelling in the role of Graduate Teaching Assistant",
-      descBullets: ["Object Oriented Programming in Python, Database Foundations for Business Analytics,System Analysis and Project Management,Advanced Statistics for Data Science,Information Technology Audit and Risk Management, International Business Management, Customer Relationship Management with Salesforce, AWS Cloud Solution Architecture "
+      descBullets: [
+        "Object Oriented Programming in Python, Database Foundations for Business Analytics,System Analysis and Project Management,Advanced Statistics for Data Science,Information Technology Audit and Risk Management, International Business Management, Customer Relationship Management with Salesforce, AWS Cloud Solution Architecture "
       ]
     },
+
     {
       schoolName: "SASTRA University",
       logo: require("./assets/images/Shanmugha_Arts,_Science,_Technology_&_Research_Academy_logo.png"),
-      subHeader: "Bachelor of Technology, Electrical and Electronic Engineering",
+      subHeader:
+        "Bachelor of Technology, Electrical and Electronic Engineering",
       duration: "July 2020 -  August 2020",
-      desc: "Ranked top 10% in the program. ",
+      desc: "Ranked top 10% in the program. "
       //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -147,15 +153,23 @@ const techStack = {
     },
     {
       Stack: "Frontend",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "React",
+      progressPercentage: "90%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Node.js",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -167,10 +181,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Product Development Intern",
+      company: "The Idea Center",
+      companylogo: require("./assets/images/IDEA.jpeg"), // Replace with the actual logo path if available
+      date: "May 2024 – Present",
+      descBullets: [
+        "Developed and delivered a responsive healthcare web application using HTML, CSS, JavaScript, and ReactJS, resulting in a fully functional 10-screen site showcased to investors, saving the team $20,000 USD.",
+        "Led the development of a 15+ screen banking mobile application using ReactJS and OutSystems, enabling user testing by over 50 people and contributing to the product’s market readiness.",
+        "Collaborated with multiple startup founders in a fast-paced 2-week sprint environment, honing frontend development skills and enhancing the UI/UX of key applications, significantly improving client satisfaction."
+      ]
+    },
+
+    {
       role: "Graduate Teaching Assistant",
       company: "University of Texas at Dallas",
       companylogo: require("./assets/images/Daco_5186041.png"),
-      date: "August 2023 – Present",
+      date: "August 2023 – January 2024",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Collaborated with the professor to design 5 comprehensive Python programming assignments, fostering practical coding skills among students.",
@@ -179,7 +205,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "DC Analyst",
+      role: "Software Developer",
       company: "Deloitte",
       companylogo: require("./assets/logo-circle-deloitte.png"),
       date: "August 2020 – December 2022",
@@ -187,7 +213,8 @@ const workExperiences = {
         "Led the development of cutting-edge reactive web and mobile applications using a range of advanced technologies.",
         "Achieved a remarkable 120% utilization rate by exceeding expectations and consistently delivering exceptional.",
         "Collaborated with Deloitte teams from four different countries to plan, design, and launch a mobile bankingsolution for the largest international money transfer provider, leveraging advanced technologies such as Mambu, OutSystems, and Python"
-      ]    }
+      ]
+    }
   ]
 };
 
@@ -282,43 +309,28 @@ const achievementSection = {
     },
     {
       title: "AWS Solution Architect",
-      subtitle:
-        "Certified AWS Solution Architect",
+      subtitle: "Certified AWS Solution Architect",
       image: require("./assets/images/aws l.jpeg"),
       //imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1MxlraxNsg6w3qkpv8KhxBSg-2Sz0fXwd/view?usp=sharing"
+          url: "https://www.credly.com/badges/98d4af38-471e-45fc-bb8a-6dc2d3a7100a/public_url"
         }
       ]
     },
     {
       title: "Salesforce",
-      subtitle:
-        "Certified Salesforce Admin",
+      subtitle: "Certified Salesforce Admin",
       image: require("./assets/images/62965ad62be59dc55430cac4.png"),
       //imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1MxlraxNsg6w3qkpv8KhxBSg-2Sz0fXwd/view?usp=sharing",
+          url: "https://drive.google.com/file/d/1RIRjiCgXsmjohuZZSMh_IxNZuyOVvn-a/view?usp=sharing"
         }
       ]
-    },
-    {
-      title: "CISA Certified",
-      subtitle:
-        "Certified Information Systems Auditor®",
-      image: require("./assets/images/20_0925_seal-cisa-500.jpg"),
-      //imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1MxlraxNsg6w3qkpv8KhxBSg-2Sz0fXwd/view?usp=sharing"
-        }
-      ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
